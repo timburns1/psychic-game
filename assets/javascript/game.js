@@ -14,7 +14,7 @@ let computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.l
 console.log(Math)
 
 function countGuessesLeft(){ 
-    document.querySelector("guessesLeft").innerHTML = "Guesses Left: " + guessesLeft;
+    document.querySelector("#guessesLeft").innerHTML = "Guesses Left: " + guessesLeft;
     console.log(document)
 }
 
