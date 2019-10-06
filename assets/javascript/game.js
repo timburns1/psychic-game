@@ -6,7 +6,7 @@ let wins = 0;
 let losses = 0;
 let guessesLeft = 9;
 let letterUser= [];
-let eachofLetters = null;
+let eachofLetters= null;
 console.log(computerChoices)
 
 // Sets the computerGuess variable eqaul to computerChoice array
@@ -15,7 +15,7 @@ console.log(Math)
 
 function countGuessesLeft(){ 
     document.querySelector("guessesLeft").innerHTML = "Guesses Left: " + guessesLeft;
-
+    console.log(document)
 }
 
 function farUserGuesses(){

@@ -24,3 +24,16 @@ h1{
 		-1px 1px 0 #000,
 		1px 1px 0 #000;
 }
+
+#foot{
+    position: absolute;
+    color:aliceblue;
+    background-color: cornflowerblue;
+    height: 50px;
+    padding: 8px;
+    text-align: center;
+    border-top-color:purple;
+    border-top-style: outset;
+    width: 100%;
+    bottom: 0;
+}
