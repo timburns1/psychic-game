@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    background-image: url("../images/cleo-tse-FG2MDE9WXO8-unsplash.jpg");
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
